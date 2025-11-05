@@ -1,0 +1,40 @@
+// ...existing code...
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>onrampx.io</title>
+  <style>
+    :root { --bg: #f7fafc; --text: #0f172a; --accent: #2563eb; }
+    html,body { height:100%; margin:0; }
+    body {
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:var(--bg);
+      color:var(--text);
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+    }
+    .center {
+      text-align:center;
+      padding:2rem 3rem;
+      border-radius:12px;
+    }
+    .brand {
+      font-size:3rem;
+      font-weight:700;
+      letter-spacing: -0.02em;
+      color:var(--accent);
+    }
+    @media (max-width:420px){
+      .brand { font-size:2rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="center" role="main" aria-label="onrampx">
+    <div class="brand">onrampx.io</div>
+  </main>
+</body>
+</html>
